@@ -1,18 +1,94 @@
 {
-  "usuarios": [
+  "cartoes": [
     {
-      "id": "187cb7e5-e097-4224-8bc7-b610c855e2b1",
-      "login": "admin",
-      "senha": "123",
-      "nome": "Administrador do Sistema",
-      "email": "admin@abc.com"
+      "id": 1,
+      "nome": "Cartão com Chip",
+      "descricao": "Cartões com tecnologia Dual interface ou contato",
+      "imagem": "assets/img/credito.jpg",
+      "destaque": true,
+      "tipo": "Cartão de Crédito/Débito",
+      "material": "Plástico PVC, chip, antena e overlay",
+      "tecnologia": "Chip EMV, de acordo com a necessidade de processamento, memória e bandeira de pagamento. Para cartões Dual interface, é utilizada uma antena de cobre.",
+      "uso": "Pagamentos mais seguros e rápidos. Cartões com modalidade contato apenas funcionam ao serem inseridos na maquininha, já os cartões dual interface possibilitam que a compra seja feita por contato ou por aproximação de até 10cm. Apesar do que muitos pensam, a compra por aproximação é considerada mais segura, pois ao evitar que o cartão seja inserido na maquininha, diminui risco de clonagem dos dados",
+      "fabricacao": "20 dias úteis",
+      "informacoes_adicionais": [
+        {
+          "id": 1,
+          "nome": "Chip",
+          "imagem": "assets/img/chip.jpg",
+          "descricao": "Os chips possuem áreas divididas e cada uma delas é responsavel por um tipo de funcionalidade. Os dados do usuário são criptografados e a cada utilização do cartão, está criptografia muda automaticamente."
+        },
+        {
+          "id": 2,
+          "nome": "Inlay (antena)",
+          "imagem": "assets/img/inlay.png",
+          "descricao": "A antena é feita normalmente com cobre e apenas é ativada após a carga elétrica emitida pelo chip. Para colocar ela em um cartão é necessário 'fazer um sanduíche'. Em aguns cartões é possível ver o corte ao meio."
+        },
+        {
+          "id": 3,
+          "nome": "Dual",
+          "imagem": "assets/img/dual.png",
+          "descricao": "Cartões Dual Interface sempre apresentam o desenho de wifi próximo ao chip"
+        }
+      ]
     },
     {
-      "id": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
-      "login": "user",
-      "senha": "123",
-      "nome": "Usuario Comum",
-      "email": "user@abc.com"
+      "id": 2,
+      "nome": "Cartão Tarjado",
+      "descricao": "Cartão tradicional com tarja magnética",
+      "imagem": "assets/img/tarjado.jpg",
+      "destaque": true,
+      "tipo": "Cartão Magnético",
+      "material": "Plástico PVC com tarja e overlay",
+      "tecnologia": "Tarja magnética. A tarja foi o primeiro passo dado para a chegada dos cartões atuais. Os dados do usuário são armazenados através de micro ímãs que possuem polaridades positiva ou negativa conforme as informações do usuário",
+      "uso": "Leitura em maquininhas. Por conta dos micros ímãs, é uma modalidade menos segura, pois é mais fácil de roubar informações e também de modificar os dados informados, já que basta apenas mudar a polaridade dos ímas conforme as novas informações.",
+      "fabricacao": "15-20 dias úteis",
+      "informacoes_adicionais": [
+        {
+          "id": 1,
+          "nome": "Tarja",
+          "imagem": "assets/img/tarja.jpg",
+          "descricao": "Apesar de não ser visível, a tarja possui três trilhas (linhas) com vários quadradinhos polarizados com as informações."
+        },
+        {
+          "id": 2,
+          "nome": "Cristal",
+          "imagem": "assets/img/overlay.png",
+          "descricao": "Todos os cartões possuem uma camada de orverlay, é nela que a tarja magnética está colada."
+        },
+        {
+          "id": 3,
+          "nome": "Primeiro",
+          "imagem": "assets/img/primeiro.jpg",
+          "descricao": "Este foi um dos primeiros cartões. Através deles a tecnologia evoluiu até chegar aos cartões tarjados."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nome": "Cartão de Transporte",
+      "descricao": "Para usar no ônibus e metrô",
+      "imagem": "assets/img/transporte.jpg",
+      "destaque": true,
+      "tipo": "Cartão de Transporte",
+      "material": "PVC resistente, micro chip e antena",
+      "tecnologia": "RFID",
+      "uso": "Bilhetagem eletrônica",
+      "fabricacao": "15-20 dias úteis",
+      "informacoes_adicionais": [
+        {
+          "id": 1,
+          "nome": "Micro chip",
+          "imagem": "assets/img/chip.jpg",
+          "descricao": "Apenasar de não ser visível, estes cartões possuem micro chips com funcionalidades reduzidas."
+        },
+        {
+          "id": 2,
+          "nome": "Inlay",
+          "imagem": "assets/img/inlay.png",
+          "descricao": "Assim como cartões dual interface, estes cartões também possuem antenas, no entanto, a aréa para pagamento por aproximação é menor, forçando um contato mais direto com a maquininha."
+        }
+      ]
     }
   ]
 }
