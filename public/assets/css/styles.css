@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Header com logo */
+header .d-flex {
+    height: 60px;
+}
+
+header img {
+    height: 40px;
+    width: auto;
+}
+
+header h1 {
+    font-size: 1.8rem;
+}
+
+h1, h2, h3{
+    font-weight: bold;
+}
+
+.carousel img{
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card img{
+    height: 200px;
+    object-fit: cover;
+}
+
+#sobre{
+    margin-top: 30px;
+}
+
+/* responsividade */
+@media (max-width: 768px){
+    .carousel img{
+        height: 250px;
+    }
+    .card img{
+        height: 150px;
+    }
+}
+.carousel a {
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+}
+/*sobre - estilo */
+#sobre h2 {
+    font-weight: bold;
+    border-bottom: 2px solid #0dadfd;
+}
+
+#sobre .text-primary {
+    color: #007bff !important;
+}
+
+.placeholder-glow .placeholder {
+    background-color: #cfcfcf;
+    display: block;
+    height: 12px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para a página de detalhes */
+.detalhes-beneficios .card {
+    transition: transform 0.3s;
+}
+
+.detalhes-beneficios .card:hover {
+    transform: translateY(-5px);
+}
+
+.list-group-item {
+    border: 1px solid #dee2e6;
+    padding: 12px 15px;
+}
+
