@@ -1,16 +1,16 @@
 {
-  "name": "template-diw-20251-semana-11",
+  "name": "saiba-card",
   "version": "1.0.0",
-  "description": "Back end com JSONServer. Projeto da disciplina de Desenvolvimento de Interfaces Web de vários cursos da PUC Minas",
-  "main": "",
+  "description": "Sistema de informações sobre cartões",
+  "main": "public/index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx json-server ./db/db.json"
+    "dev": "json-server --watch db/db.json --port 3000",
+    "start": "json-server --watch db/db.json --port 3000"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["cartoes", "educacao", "tecnologia"],
+  "author": "Emanuelly Oliveira Arruda Cabral",
+  "license": "MIT",
   "dependencies": {
-    "json-server": "0.17.0"
+    "json-server": "^0.17.4"
   }
 }
